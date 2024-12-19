@@ -1,4 +1,3 @@
-cat uvinstall.sh
 RC_FILE="$HOME/.$(basename "$SHELL")rc"
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
