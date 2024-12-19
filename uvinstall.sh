@@ -2,7 +2,7 @@ RC_FILE="$HOME/.$(basename "$SHELL")rc"
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source "$RC_FILE"
-uv venv ~/.venv --prompt uv --python \${1:-"3.12"}
+uv venv ~/.venv --prompt uv --python ${1:-"3.12"}
 source ~/.venv/bin/activate
 uv pip install pip
 
